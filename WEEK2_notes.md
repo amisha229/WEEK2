@@ -36,13 +36,6 @@ The model’s objective was to recognize different types of clothing items and c
 
 ---
 
-## Screenshots to Include
-- **Training & Validation Curves:** Loss and Accuracy plots showing convergence.  
-- **Confusion Matrix:** Heatmap of predicted vs true labels.  
-- **Sample Output:** Screenshot of `predict_and_suggest()` showing predicted class and sustainability recommendation.  
-
----
-
 ## Improvisations Done
 - Enhanced model robustness by integrating **data augmentation**, **batch normalization**, and **dropout**, which improved test accuracy by ~5% compared to a baseline CNN.  
 - Added **early stopping** and model checkpointing to prevent overfitting and automatically save the best model weights.  
